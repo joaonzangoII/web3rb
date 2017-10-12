@@ -1,0 +1,73 @@
+GIT
+  remote: https://github.com/joaonzangoII/ethereum.rb
+  revision: 8a92031c16dcf553201590d264e4ccc39d1a1244
+  branch: change-active-support-version
+  specs:
+    ethereum.rb (2.1.7)
+      activesupport (~> 4.0)
+      digest-sha3 (~> 1.1)
+
+GIT
+  remote: https://github.com/spikewilliams/vtada-ethereum
+  revision: edd693f8d6f078c94992bc2f44e7236b2ed3edb0
+  branch: master
+  specs:
+    web3 (0.4.1)
+      httparty (~> 0.14)
+      json (~> 2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.10)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    amq-protocol (2.2.0)
+    bunny (2.7.1)
+      amq-protocol (>= 2.2.0)
+    byebug (9.1.0)
+    coderay (1.1.2)
+    digest-sha3 (1.1.0)
+    eth (0.4.5)
+      digest-sha3 (~> 1.1)
+      ffi (~> 1.0)
+      money-tree (~> 0.9)
+      rlp (~> 0.7.3)
+    ffi (1.9.18)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    i18n (0.8.6)
+    jeth (0.0.11)
+    json (2.1.0)
+    method_source (0.9.0)
+    minitest (5.10.3)
+    money-tree (0.9.0)
+      ffi
+    multi_xml (0.6.0)
+    pry (0.11.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.5.0)
+      byebug (~> 9.1)
+      pry (~> 0.10)
+    rlp (0.7.3)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bunny
+  eth
+  ethereum.rb!
+  jeth
+  pry
+  pry-byebug
+  web3!
+
+BUNDLED WITH
+   1.14.6
